@@ -24,8 +24,8 @@ class _VideoPlayerPageState extends State<VideoPlayerPage> {
   Future<void> _initializePlayer() async {
     try {
       // ignore: deprecated_member_use
-      _videoPlayerController = VideoPlayerController.network(
-          "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4");
+      _videoPlayerController = VideoPlayerController.asset(
+          "assets/video/Ser");
 
       await _videoPlayerController.initialize();
 
