@@ -25,7 +25,7 @@ class _VideoPlayerPageState extends State<VideoPlayerPage> {
     try {
       // ignore: deprecated_member_use
       _videoPlayerController = VideoPlayerController.asset(
-          "assets/video/Ser");
+          "assets/video/Ser.mp4");
 
       await _videoPlayerController.initialize();
 
